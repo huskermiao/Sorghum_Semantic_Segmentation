@@ -1,4 +1,4 @@
-# Sorghum_Semantic_Segmentation
+# Sorghum Semantic Segmentation using machine learning and hyperspectral imaging
 sorghum semantic segmentation project related code and data
 
 - sorghum pixel training dataset for background, leaf, stalk, and panicle
