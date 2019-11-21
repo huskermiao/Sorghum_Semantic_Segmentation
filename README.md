@@ -10,9 +10,6 @@ sorghum semantic segmentation project related code and data
   - `maize_features.csv` (4000*243)
   - `maize_labels.csv`  (4000*1)
 
-- feature selection results
-  - `important_wavebands.xlsx`
-
 ## `code`
 - code for training and testing 7 machine learning methods in R
   - `Analysis_7methods.R`
@@ -20,6 +17,9 @@ sorghum semantic segmentation project related code and data
 - code for training Artificial neural networks (ANNs) in python
   - `Analysis_ANNs.py` (training)
   - `Analysis_ANNs_predict.py` (prediction)
+
+- feature selection results
+  - `important_wavebands.xlsx`
 
 ## `phenotypes`
 - traits extracted from segmented sorghum images
