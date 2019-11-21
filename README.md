@@ -18,3 +18,18 @@ sorghum semantic segmentation project related code and data
 - code for training Artificial neural networks (ANNs) in python
   - `Analysis_ANNs.py` (training)
   - `Analysis_ANNs_predict.py` (prediction)
+
+- traits extracted from segmented sorghum images
+  - `pheno_height.csv` (phenotypes for plant height)
+  - `pheno_panicle.csv` (phenotypes for panicle size)
+  - `pheno_stalk.csv` (phenotypes for stalk size)
+  - `pheno_leaf.csv` (phenotpes for leaf size)
+  - `pheno_panicleleaf.csv` (phenotypes of the ratio of panicle and leaf size)
+  - `pheno_stalkleaf.csv` (phenotypes of the ratio of stalk and leaf size)
+  - `pheno_paniclestalk.csv` (phenotypes for the ratio of panicle stalk size)
+
+- Sorhgum and maize hyperspectral cubes in numpy array for testing
+  - maize_hyperspectral_cube.npy (495*320*243)
+  - sorghum_hyperspectral_cube1.npy (561*320*243)
+  - sorghum_hyperspectral_cube2.npy (560*320*243)
+  
