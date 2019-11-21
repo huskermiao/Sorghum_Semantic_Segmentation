@@ -1,6 +1,7 @@
 # Sorghum Semantic Segmentation using machine learning and hyperspectral imaging
 sorghum semantic segmentation project related code and data
 
+## `pixel_data`
 - sorghum pixel classification dataset for background, leaf, stalk, and panicle
   - `sorghum_features.csv` (7560*243)
   - `sorghum_labels.csv`  (7560*1)
@@ -10,8 +11,9 @@ sorghum semantic segmentation project related code and data
   - `maize_labels.csv`  (4000*1)
 
 - feature selection results
-  - `feature_selection.xlsx`
+  - `important_wavebands.xlsx`
 
+## `code`
 - code for training and testing 7 machine learning methods in R
   - `Analysis_7methods.R`
 
@@ -19,6 +21,7 @@ sorghum semantic segmentation project related code and data
   - `Analysis_ANNs.py` (training)
   - `Analysis_ANNs_predict.py` (prediction)
 
+## `phenotypes`
 - traits extracted from segmented sorghum images
   - `pheno_height.csv` (phenotypes for plant height)
   - `pheno_panicle.csv` (phenotypes for panicle size)
@@ -28,8 +31,9 @@ sorghum semantic segmentation project related code and data
   - `pheno_stalkleaf.csv` (phenotypes of the ratio of stalk and leaf size)
   - `pheno_paniclestalk.csv` (phenotypes for the ratio of panicle stalk size)
 
+## `hyperspectral_cubes`
 - Sorhgum and maize hyperspectral cubes in numpy array for testing
-  - maize_hyperspectral_cube.npy (495*320*243)
-  - sorghum_hyperspectral_cube1.npy (561*320*243)
-  - sorghum_hyperspectral_cube2.npy (560*320*243)
+  - `maize_hyperspectral_cube.npy` (495*320*243)
+  - `sorghum_hyperspectral_cube1.npy` (561*320*243)
+  - `sorghum_hyperspectral_cube2.npy` (560*320*243)
   
